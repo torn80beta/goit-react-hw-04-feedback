@@ -13,3 +13,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Notification {
+  display: block;
+  text-align: center;
+}
+
+.Feedback__Options{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Feedback_Button{
+  background-color: white;
+  border: 0px solid gray;
+  border-radius: 5px;
+  width: 80px;
+  height: 25px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.Feedback_Button:hover {
+  background-color: azure;
+}
+
+.Feedback_Button:active {
+  background-color: rgb(207, 248, 197);
+}
